@@ -50,6 +50,20 @@ public static class SeedData
                     Rating = "R",
                 }
             );
+            context.Client.AddRange(
+                new Client
+                {
+                    Name = "Emerson",
+                    Phone = "41995932634",
+                    Address = "Rua leopold",
+                },
+                new Client
+                {
+                    Name = "Ester",
+                    Phone = "41995932534",
+                    Address = "Rua Gumercindo",
+                }
+            );
             context.SaveChanges();
         }
     }

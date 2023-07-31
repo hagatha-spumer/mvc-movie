@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MvcMovie.Models;
 
 namespace MvcMovie.Data
 {
@@ -10,5 +11,7 @@ namespace MvcMovie.Data
         }
 
         public DbSet<MvcMovie.Models.Movie> Movie { get; set; } = default!;
+
+        public DbSet<MvcMovie.Models.Client> Client { get; set; } = default!;
     }
 }
