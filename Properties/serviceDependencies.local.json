@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "sqlite1": {
+      "secretStore": "LocalSecretsFile",
+      "type": "sqlite.local",
+      "connectionId": "MvcMovieContext-19be67a1-212b-47d3-a782-1b3a5f0ae6a3.db",
+      "dynamicId": null
+    }
+  }
+}
