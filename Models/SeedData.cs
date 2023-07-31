@@ -64,6 +64,24 @@ public static class SeedData
                     Address = "Rua Gumercindo",
                 }
             );
+            context.Supplier.AddRange(
+                new Supplier
+                {
+                    Name = "Alice",
+                    Phone = "41995932534",
+                    Email = "hagathaspumer@hotmail.com",
+                    Product = "popcorn",
+                    Address = "Rua carlos p de lima"
+                },
+                new Supplier
+                {
+                    Name = "Mauricio S",
+                    Phone = "41995932524",
+                    Email = "loreal123@hotmail.com",
+                    Product = "Drinks",
+                    Address = "Rua 123"
+                }
+            );
             context.SaveChanges();
         }
     }
